@@ -1,0 +1,16 @@
+// Demo catalogue: replace names, prices, copy and image URLs with approved business content.
+export const products = [
+  {id:1,name:"Pastel Study Notes Set",category:"Korean Stationery",price:249,oldPrice:299,tag:"Bestseller",image:"https://images.unsplash.com/photo-1517842645767-c639042777db?w=900&auto=format&fit=crop&q=85",description:"A pretty little stationery set for lists, plans and everyday notes."},
+  {id:2,name:"Blush Pink Journal",category:"Korean Stationery",price:349,image:"https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=900&auto=format&fit=crop&q=85",description:"A soft-cover journal made for thoughts, dreams and daily pages."},
+  {id:3,name:"Kawaii Sticker Bundle",category:"Korean Stationery",price:149,oldPrice:199,tag:"Save 25%",image:"https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=900&auto=format&fit=crop&q=85",description:"A cheerful mix of decorative stickers to personalise your world."},
+  {id:4,name:"Cloud Nine Hair Clips",category:"Cute Accessories",price:199,image:"https://images.unsplash.com/photo-1590736969955-71cc94901144?w=900&auto=format&fit=crop&q=85",description:"A delicate pair of clips for an effortless everyday look."},
+  {id:5,name:"Daisy Phone Charm",category:"Cute Accessories",price:179,image:"https://images.unsplash.com/photo-1602523961358-f9f03dd557db?w=900&auto=format&fit=crop&q=85",description:"A sweet little detail to make your phone feel more you."},
+  {id:6,name:"Pearl Bow Bracelet",category:"Jewellery",price:299,oldPrice:349,image:"https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=900&auto=format&fit=crop&q=85",description:"A dainty pearl-inspired bracelet with a romantic bow detail."},
+  {id:7,name:"Everyday Mini Hoops",category:"Jewellery",price:249,image:"https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=900&auto=format&fit=crop&q=85",description:"Minimal hoops that pair beautifully with every outfit."},
+  {id:8,name:"The Little Joy Gift Box",category:"Gift Hampers",price:799,tag:"Gift pick",image:"https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=900&auto=format&fit=crop&q=85",description:"A thoughtfully curated box for birthdays, thank-yous and just-because days."},
+  {id:9,name:"Bestie Treat Hamper",category:"Gift Hampers",price:999,image:"https://images.unsplash.com/photo-1513201099705-a9746e1e201f?w=900&auto=format&fit=crop&q=85",description:"A feel-good bundle for your favourite person."},
+  {id:10,name:"Aesthetic Desk Decor",category:"Aesthetic Essentials",price:399,image:"https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&auto=format&fit=crop&q=85",description:"A calming finishing touch for your creative corner."},
+  {id:11,name:"Ceramic Trinket Tray",category:"Aesthetic Essentials",price:329,oldPrice:379,image:"https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?w=900&auto=format&fit=crop&q=85",description:"Keep your tiny treasures close in this pretty catch-all tray."},
+  {id:12,name:"Pastel Pen Set",category:"Korean Stationery",price:219,image:"https://images.unsplash.com/photo-1455390582262-044cbuy9d7e?w=900&auto=format&fit=crop&q=85",description:"Smooth-writing pastel pens for notes that spark joy."}
+];
+export const categories = ["All","Korean Stationery","Cute Accessories","Jewellery","Gift Hampers","Aesthetic Essentials"];
